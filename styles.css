@@ -1,0 +1,150 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;  
+    font-family: 'Cabin', serif;
+}
+
+img {
+    width: 100px;
+}
+
+.circle-img {
+    border-radius: 50%;
+    height: 100px;
+    border: 2px solid orangered
+}
+
+#hero {
+    background-image: url("images/buses.jpeg");
+    background-size: cover;
+    padding: 10px 0;
+    color: #fff;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0 0 2px black;
+}
+
+
+#hero h1 {
+    background-color: #86CB92;
+    padding: 5px 15px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    font-family: 'Titan One', display;
+}
+
+#hero h2 {
+    background-color: #F37964;
+    font-size: 20px;
+    padding: 2px 15px;
+    border-radius: 8px;
+    opacity: 0.9;
+}
+
+#activities {
+    padding: 4px 30px 20px;
+    background-color: #fbf8cc;
+}
+
+.activities-container {
+    display: flex;
+    justify-content: center;
+}
+
+.activity-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 300px;
+    margin: 0 5px 5px 5px;
+    padding: 20px 10px;
+    margin-bottom: 5px;
+    color: #1D3557;
+}
+
+#guide {
+    background-color: #D8F3DC;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 3px #1D3557;
+    margin: 0 auto;
+    display: flex;
+    padding: 10px 20px;
+    flex-direction: row-reverse;
+    margin: 40px auto;
+}
+
+#guide p {
+    font-style: italic;
+    font-size: 16px;
+    padding: 10px;
+}
+
+#guide h3 {
+    font-size: 25px;
+    
+}
+
+.guide-img {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    padding-top: 18px;
+    
+}
+
+.with-gradient {
+  border-style: solid;
+  border-width: 10px;
+  border-image: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66)) 1;
+}
+
+#foodie {
+    background-image: url("images/desayuno.jpeg");
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    padding: 20px 20px;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#foodie h3 {
+    /* background-color: white; */
+    font-size: 40px;
+    font-family: 'Titan One', display;
+    color: #F37964;
+    text-shadow: 0 0 4px black;
+    background-color: yellowgreen;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+
+button {
+    border: none;
+    background-color: #F37964;
+    color: #fff;
+    padding: 12px 30px;
+    font-weight: bold
+}
+
+button:hover {
+    padding: 12px 32px;
+    background-color: yellowgreen;
+    font-size: 18px;
+}
